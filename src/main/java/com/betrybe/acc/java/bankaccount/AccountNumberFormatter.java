@@ -1,7 +1,5 @@
 package com.betrybe.acc.java.bankaccount;
 
-import com.sun.tools.javac.util.StringUtils;
-
 /**
  * AccountNumberFormatter.
  */
@@ -23,7 +21,7 @@ public class AccountNumberFormatter {
       return StringUtils.right(accountNumber, 6);
 
     }
-    return numberBank;
+    return accountNumber;
 
   }
 
