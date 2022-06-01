@@ -1,5 +1,7 @@
 package com.betrybe.acc.java.bankaccount;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * AccountNumberFormatter.
  */
